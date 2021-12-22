@@ -1,2 +1,2 @@
-# minesweeper-console_version-
+# minesweeper (console version)
 A simplified version of minesweeper that is a console app
