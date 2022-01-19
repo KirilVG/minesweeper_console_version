@@ -1,4 +1,4 @@
-bool CheckIfAllMinesAreBlockedFunction(char map[][9], char visibleMap[][9], int mapSize)
+bool CheckIfAllMinesAreBlockedFunction(char **map, char **visibleMap, int mapSize)
 {
     for (int i = 0; i < mapSize; i++)
     {

@@ -3,6 +3,6 @@
 #include "DisplayMap.cpp"
 #include "CheckIfAllMinesAreBlocked.cpp"
 
-void MapSetUpFunction(char map[][9], char visibleMap[][9], int mapSize, int numberOfBombs);
-void DisplayMapFunction(char map[][9], int mapSize);
-bool CheckIfAllMinesAreBlockedFunction(char map[][9], char visibleMap[][9], int mapSize);
+void MapSetUpFunction(char ** map, char **visibleMap, int mapSize, int numberOfBombs);
+void DisplayMapFunction(char **map, int mapSize);
+bool CheckIfAllMinesAreBlockedFunction(char **map, char **visibleMap, int mapSize);
