@@ -60,9 +60,7 @@ void playGame()
         //system("CLS");
         cout << "\x1B[2J\x1B[H";
         DisplayMapFunction(visibleMap, mapSize);
-        if (showBlockMessage)
-            cout << blockMessage << endl;
-        ;
+        if (showBlockMessage) cout << blockMessage << endl;
         showBlockMessage = false;
         cin >> row >> colum >> operation;
         while (row < 0 || row >= mapSize)
@@ -124,7 +122,6 @@ void playGame()
                 //system("CLS");
                 cout << "\x1B[2J\x1B[H";
                 cout << "Victory" << endl;
-                ;
                 break;
             }
         }

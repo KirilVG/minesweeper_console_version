@@ -12,7 +12,7 @@
 * <header file>
 *
 */
-#pragma
+#pragma once
 #include "MapSetUp.cpp"
 #include "DisplayMap.cpp"
 #include "CheckIfAllMinesAreBlocked.cpp"
